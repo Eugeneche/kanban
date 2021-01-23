@@ -1,1 +1,1 @@
-# Webpack 5 Video Tutorials Exercise Files
+https://relaxed-bose-5102e8.netlify.app/
