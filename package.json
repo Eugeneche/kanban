@@ -1,7 +1,7 @@
 {
-  "name": "ex_webpack5",
+  "name": "kanban",
   "version": "0.0.0",
-  "description": "Webpack 5 Video Tutorials Exercise Files",
+  "description": "Kanban project",
   "scripts": {
     "git:commit": "cz",
     "build": "./node_modules/.bin/webpack",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/rapidevelop/ex_webpack5/issues"
   },
-  "homepage": "https://github.com/rapidevelop/ex_webpack5#readme",
+  "homepage": "https://github.com/Eugeneche/kanban.git",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"

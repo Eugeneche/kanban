@@ -1,5 +1,4 @@
 const path = require('path');
-//var Draggabilly = require('draggabilly');
 
 module.exports = {
   mode: 'development',
