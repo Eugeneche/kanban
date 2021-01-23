@@ -1,0 +1,112 @@
+$step-heigth: 25vh;
+$step-gap: 3vh;
+button {
+    border: none;
+    outline: none;
+    padding: 0;
+    background-color: #ffffff00;
+    cursor: pointer;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hide {
+    display: none;
+}
+
+.hovered {
+    background-color: #f0f8ff;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid #d3d3d3;
+    height: $step-heigth;
+    margin-bottom: $step-gap;
+    position: relative;
+}
+
+.card {
+    height: $step-heigth;
+    width: 100px;
+    border: 1px solid #000000;
+    background: #ffe8d2;
+    cursor: move;
+    button.edit-card {
+        float: right;
+        margin: 5px;
+    }
+}
+
+button.add-task {
+    position: absolute;
+    top:10px;
+    right: 12px;
+}
+
+.shadow {
+    position: absolute;
+    background-color: #80808063;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+.modal { 
+    margin: 100px auto;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #008000;
+    border-radius: 10px;
+    background-color: #fff;
+    button {
+        margin: 5px;
+        float: right;
+    }
+    .submit {
+        margin-right: 34px;
+    }
+}
+
+input[type="text"] {
+    width: 223px;
+}
+
+textarea {
+    width: 225px;
+    height: 120px;
+    max-width: 225px;
+    max-height: 120px;
+}
+
+.date, .subject, .description, .status {
+    margin: 10px 34px;
+}
+
+.date {
+    margin-top: 30px;
+}
+
+.bin {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    img {
+        width: 70px;
+    }
+}
+
+.hovered-bin {
+    transform: scale(1.4);
+}
+
+
+
